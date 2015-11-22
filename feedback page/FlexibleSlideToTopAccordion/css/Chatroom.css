@@ -11,6 +11,7 @@
 	border-bottom-width: 0px;
 	border-right-width: 0px;
 	font-family: 'Open Sans', sans-serif;
+	background-color: #DCC6E0;
 }
 .Type_Here{
 	position:absolute;
@@ -36,6 +37,7 @@
 	bottom:0px;
 	border-width: 1px;
 	border-style: solid;
+	background-color: #68A0A0;
 }
 .Send_Button:hover{
 	background-color: #EEEEEE;
