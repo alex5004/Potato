@@ -119,6 +119,8 @@ h1 {
 	margin-right: 25%;
 	width: 30%;
 	min-width: 30%;
+	border: 5px solid #fffff;
+	border-radius: 7px;
 }
 
 @media screen and (max-width: 320px){
