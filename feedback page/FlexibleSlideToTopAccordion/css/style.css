@@ -1,7 +1,12 @@
 body {
 	background-color: #eeeeee;
 }
-
+p {
+	text-align: center;
+}
+h1 {
+	text-align: center;
+}
 /* Flexible Slide-to-top Accordion Style*/
 .wrapper{
 	width:100%;
