@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>idea8 | Feedback</title>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Codrops" />
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link rel="stylesheet" type="text/css" href="css/Chatroom.css" />
+		<noscript>
+			<style>
+				.st-accordion ul li{
+					height:auto;
+				}
+				.st-accordion ul li > a span{
+					visibility:hidden;
+				}
+			</style>
+		</noscript>
+    </head>
+    <body>
+        <div class="container">
+            <div class="wrapper">
+                <div id="st-accordion" class="st-accordion"> <!-- left dropdown side panels-->
+                    <ul>
+                        <li>
+                            <a href="#">Photography<span class="st-arrow"> </span></a>
+                            <div class="st-content thumbnails">
+                                <!--changes placeholder image in preview object to the specified image-->
+                                <!--for some reason only works with unique images; no duplicates pls lol-->
+                                <img onclick="preview.src=img1.src" name="img1" src="images/img1.jpg" alt=""/>
+                                <img onclick="preview.src=img2.src" name="img2" src="images/img2.jpg" alt=""/>
+                                <img onclick="preview.src=img3.src" name="img3" src="images/img3.jpg" alt=""/>
+                                <img onclick="preview.src=img4.src" name="img4" src="images/img4.jpg" alt=""/>
+                                <img onclick="preview.src=img5.src" name="img5" src="images/img5.jpg" alt=""/>
+                                <img onclick="preview.src=img6.src" name="img6" src="images/img6.jpg" alt=""/>
+                                <img onclick="preview.src=img7.src" name="img7" src="images/img7.jpg" alt=""/>
+                                <img onclick="preview.src=img8.src" name="img8" src="images/img8.jpg" alt=""/>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Web Design<span class="st-arrow"> </span></a>
+                            <div class="st-content thumbnails">
+                              <img onclick="preview.src=img9.src" name="img9" src="images/img9.jpg" alt=""/>
+                              <img onclick="preview.src=img10.src" name="img10" src="images/img10.jpg" alt=""/>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Illustrations<span class="st-arrow"> </span></a>
+                            <div class="st-content">
+                                <p>O my friend - but it is too much for my strength - I sink under the weight of the splendour of these visions!</p>
+                                <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.</p>
+                                <p>I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">Miscancellous<span class="st-arrow"> </span></a>
+                            <div class="st-content">
+                                <p>The bedding was hardly able to cover it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, waved about helplessly as he looked. "What's happened to me?"</p>
+                                <p>He thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">References<span class="st-arrow"> </span></a>
+                            <div class="st-content">
+                                <p>It showed a lady fitted out with a fur hat and fur boa who sat upright, raising a heavy fur muff that covered the whole of her lower arm towards the viewer. Gregor then turned to look out the window at the dull weather.</p>
+                                <p>Drops of rain could be heard hitting the pane, which made him feel quite sad.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- center panel -->
+        <div class="preview" align="center">
+          <img name="preview" src="images/img1.jpg" alt=""/> <!--placeholder image-->
+        </div>
+
+        <div class="Chat_Room">
+          <div class="Chat_Box">Chat</div>
+
+          <textarea class="Type_Here">Type here</textarea>
+
+          <div class="Send_Button">Send</div>
+        </div>
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.accordion.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+
+				$('#st-accordion').accordion({
+					oneOpenedItem	: true
+				});
+
+            });
+        </script>
+    </body>
+</html>
