@@ -12,6 +12,7 @@ header > p {
   margin-bottom: 3%;
 	margin-top: 2%;
 	margin-left: 1%;
+	margin-bottom: 0em;
 }
 
 header > h1 {
@@ -20,6 +21,7 @@ header > h1 {
 	margin-right: 30%;
 	font-size: 18px;
 	color: ##CDCDCD;
+	margin-top: -1em;
 }
 
 
@@ -147,11 +149,13 @@ header > h1 {
 .preview p {
 	text-align: center;
 	margin-right: 25%;
+	margin-bottom: -1em;
 }
 
 .preview h1 {
 	text-align: center;
 	margin-right: 25%;
+	margin-bottom: -1em;
 }
 
 @media screen and (max-width: 320px){
