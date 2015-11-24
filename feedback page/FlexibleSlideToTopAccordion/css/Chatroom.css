@@ -59,14 +59,15 @@
 
 .Message_Window{
 	width: 21.2%;
-	height: 70.3%;
+	height: 68%;
 	margin-left: 2%;
 	margin-top: 1.5%;
 	position: fixed;
 	background-color: #EEEEEE;
 	border-radius: 5px;
-	text-align: justify;
-}
+	text-align: left;
+	padding-left: 10px;
+	padding-top: 10px;
 /*
 
 		<div class="Chat_Room">
