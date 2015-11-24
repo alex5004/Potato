@@ -1,14 +1,19 @@
 body {
 	background-color: #eeeeee;
 }
-p {
-	text-align: center;
-	margin-right: 25%;
+
+
+header > p {
+  font-family: 'Caveat', cursive;
+  font-size: 56px;
+  text-align: left;
+  color: #91688F;
+  margin-bottom: 3%;
+	margin-top: 2%;
+	margin-left: 1%;
 }
-h1 {
-	text-align: center;
-	margin-right: 25%;
-}
+
+
 /* Flexible Slide-to-top Accordion Style*/
 .wrapper{
 	width:100%;
@@ -125,6 +130,16 @@ h1 {
 	min-width: 30%;
 	border: 5px solid #fffff;
 	border-radius: 7px;
+}
+
+.preview p {
+	text-align: center;
+	margin-right: 25%;
+}
+
+.preview h1 {
+	text-align: center;
+	margin-right: 25%;
 }
 
 @media screen and (max-width: 320px){
