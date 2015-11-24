@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
 	background-color: #eeeeee;
 }
@@ -22,7 +22,8 @@ header > h1 {
 	margin-right: 30%;
 	font-size: 18px;
 	color: ##CDCDCD;
-	margin-top: -1em;
+	margin-top: -2em;
+	margin-bottom: -1em;
 }
 
 
@@ -330,4 +331,3 @@ header > p {
 		font-size:36px;
 	}
 }
->>>>>>> origin/master
