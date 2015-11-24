@@ -70,7 +70,7 @@
 	padding-top: 10px;
 	z-index: -1;
 }
-.Chat_Icon p {text-align: center; padding-right: 5px;}
+.Chat_Icon p {text-align: center; padding: 15px;}
 .Chat_Icon ul  {list-style: none;padding: 0px;margin: 0px; text-align: center;}
 .Chat_Icon li {display: block;position: auto;float: left;}
 .Chat_Icon li ul {display: none;}
