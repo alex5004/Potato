@@ -1,6 +1,6 @@
 
 .Chat_Room{
-	position: absolute;
+	position: fixed;
 	top:0px;
 	height:100%;
 	width:25%;
@@ -12,7 +12,7 @@
 	border-right-width: 0px;
 }
 .Type_Here{
-	position:absolute;
+	position:fixed;
 	bottom:0px;
 	width: calc(100% - 58px);
 	height:25%;
@@ -22,10 +22,11 @@
 	border-bottom-width: 0px;
 	border-right-width: 0px;
 	resize: none;
+	z-index: -2;
 }
 
 .Send_Button{
-	position:absolute;
+	position:fixed;
 	height: calc(25% - 22px);
 	padding:10px;
 	cursor: pointer;
