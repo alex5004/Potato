@@ -43,12 +43,54 @@
 			<div class="Ready_Button">Ready to go</div>
 		</div>
 
-		<div class="Chat_Room">
-			<div class="Chat_Box">Chat</div>
+		 <div class="Chat_Room">
+          <div class="Chat_Icon" style="font-size:24px;">
+            <ul id="drop-nav">
+              <li><a href="#"><i class="fa fa-users"></i></a>
+                  <ul>
+                    <li><a href="#"><i class="fa fa-circle" style="font-size:12px; color: green; text-align:left;"></i> Tommy <i class="fa fa-star"></i></i></a></li>
+                    <li><a href="#"><i class="fa fa-circle" style="font-size:12px; color: green; text-align:left;"></i> Carlton</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o" style="font-size:12px; text-align:left;"></i> Tanysha</a></li>
+                   
+                  </ul>
+              </li>
+              <p>Chat</p>
+            </div>
+          <div class="Message_Window">
+            <p><b>Tommy:</b>
+              <br />
+              Wow, you can do so much with potatoes!
+            </p>
 
-			<textarea class="Type_Here">Type here</textarea>
+            <p><b>Tanysha:</b>
+              <br/>
+              Could you explain more about the Hasselholf?
+            </p>
 
-			<div class="Send_Button">Send</div>
-		</div>
+            <p><b>Sue:</b>
+              <br/>
+              HAHAHAHAH THESE ARE SO GREAT
+            </p>
+
+
+
+          </div>
+
+          <textarea class="Type_Here" placeholder="Type a message..."></textarea>
+
+          <div class="Send_Button"><b>Send</b></div>
+        </div>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.accordion.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript">
+            $(function() {
+
+				$('#st-accordion').accordion({
+					oneOpenedItem	: true
+				});
+
+            });
+        </script>
 	</body>
 </html>
