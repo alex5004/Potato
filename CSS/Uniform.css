@@ -1,6 +1,7 @@
 body {
   background-color: #EEEEEE;
   font-family: 'Open Sans', sans-serif;
+  color: #34495E;
   text-align: center;
   font-size: 14px;
 }
@@ -42,7 +43,6 @@ span {
 .button {
   padding:10px;
   background-color: #EEEEEE;
-  color: #68A0A0;
   cursor: pointer;
   width:15%;
   text-align: center;
