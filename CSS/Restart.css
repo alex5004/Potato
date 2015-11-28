@@ -1,95 +1,32 @@
-/*put bookmarks bar here*/
 
-body {
-  background-color: #EEEEEE;
-}
-
-
-
-#header > p {
+#question {
+  margin-top: 10%;
   font-family: 'Caveat', cursive;
-  font-size: 5em;
-  text-align: center;
-  color: #91688F;
-  margin-bottom: 10%;
-}
-
-.bookmarkscontainer > p {
-  width: 100%;
-  text-align:center;
-  margin-top:-5%;
-  font-family:'Caveat',cursive;
-  font-size: 1.3em;
-  white-space: nowrap;
-  overflow: hidden;
-  color:#CDCDCD;
-}
-
-span {
-  margin-right:20px;
-}
-
-#question > .reiterate {
-  font-family: 'Caveat', cursive;
-  font-size: 2em;
+  font-size: 1.7em;
   text-align: center;
   color: #91688F;
 }
 
-#question > .number {
-  margin-top: -30px;
+#number {
+  margin-top: 1%;
   margin-bottom: 50px;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2em;
+  font-size: 14px;
   text-align: center;
   color: #34495E;
 }
 
 #container {
   width: 100%;
-  margin-top: -3%;
+  margin-top: 5%;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
 }
 
-.yesplease {
-    width: 12%;
-    padding: 5px;
-    border: 1px solid #68A0A0;
-    border-radius: 5px;
-    display: inline-block;
-    margin: 0 auto;
-}
-
-.yesplease > .yestext {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2em;
-  color: #34495E;
-}
-
-.nothanks {
-    width: 12%;
-    padding: 5px;
-    border: 1px solid #68A0A0;
-    border-radius:5px;
-    display: inline-block;
-    margin: 0 auto;
-}
-
-
-.nothanks > .notext {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 1.2em;
-  color: #34495E;
-}
-
-.nothanks:hover {
-  color: white;
-  background: #68A0A0;
-  border: 2px solid white;
+.button {
+  font-size: 12px;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 .modalDialog {
