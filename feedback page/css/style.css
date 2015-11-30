@@ -146,7 +146,7 @@ header > h1 {
 	padding: 1px;
 	margin-top: 2%;
 	margin-bottom: 1%;
-	margin-right: 25%;
+	margin-right: 27%;
 	width: 30%;
 	min-width: 30%;
 	border: 5px solid #fffff;
@@ -166,6 +166,7 @@ header > h1 {
 	font-family: 'Open Sans', sans-serif;
 	margin-top: 0%;
 	margin-bottom: -2%;
+	color: #34495E;
 }
 
 .share-link {
@@ -261,8 +262,6 @@ header > h1 {
 .close:hover {
     background: #87b4b4;
 }
-
-
 
 @media screen and (max-width: 320px){
 	.st-accordion ul li > a{
