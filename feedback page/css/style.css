@@ -2,7 +2,7 @@
 body {
 	background-color: #eeeeee;
 	margin-bottom: 5em;
-	overflow: hidden;
+	overflow: auto;
 }
 
 
@@ -231,7 +231,7 @@ header > h1 {
     width: 40%;
     position: relative;
     margin: 20% auto;
-    padding: 60px 60px 60px 60px;
+    padding: 60px 60px 100px 60px;
     border-radius: 5px;
     background-color: #eeeeee;
     /*background: -moz-linear-gradient(#fff, #999);
