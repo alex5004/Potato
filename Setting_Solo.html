@@ -3,10 +3,11 @@
   <head>
     <title> Settings | Personal </title>
     <meta charset = "utf-8" />
-    <link rel = "stylesheet" href = "Setting_Solo.css" />
+    <link rel = "stylesheet" href = "CSS/Setting_Solo.css" />
     <link type="text/css" rel="stylesheet" href="BookmarksBar.css"/>
     <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <meta name = "viewport" content = "width-device-width, initial-scale = 1.0"/>
   </head>
   <body class = "body">
@@ -17,29 +18,32 @@
       <h1> You are working on a personal project. </h1>
         <!-- Bookmark bar -->
         <div class="bookmarkscontainer">
-          <p>
+          <p style="text-align: center; margin-bottom: 2.5%">
             <span style="color:#91688F" ><img src="./images/Settings.png"> Settings </span>
-            <span><img src="./images/WaitingRoom.png.jpg"> Waiting Room </span>
+            <span><img src="./images/WaitingRoom.png"> Waiting Room </span>
             <span><img src="./images/Ideate.png"> Ideate </span>
             <span><img src="./images/Share.png"> Share/Feedback </span>
             <span><img src="./images/Iterate.png"> Iterate </span>
           </p>
         </div>
+
         <form>
-          <label for="text"> Your Name: </label>
+          <label for="text" id = "name"> Your Name: </label>
           <input type = "text" class = "text-line" placeholder = "Ex. Boshna Yowen"/>
         </form>
         <form>
-          <label for="text"> Name of Your Project: </label>
+          <label for="text" id = "project"> Name of Your Project: </label>
           <input type = "text" class = "text-line" placeholder = "Ex. Idea8"/>
         </form>
         <form>
-          <label for="number"> Set Your Number of Idea Panels: </label>
-          <input type="number" id="number" name="number">
+          <label for="number" id = "panels"> Set Your Number of Idea Panels: </label>
+          <input type="number" class = "text-line" placeholder = "Ex. 8">
+          <i class="material-icons" style="font-size: 20px; color: #91688F; margin-left: -19.5%">info</i>
         </form>
         <form>
-          <label for="number"> Set Time per Panel: </label>
+          <label for="number" id = "time"> Set Time per Panel: </label>
           <input type = "range" id = "range" name = "range">
+          <i class="material-icons" style="font-size: 20px; color: #91688F; margin-left: 10%">info</i>
         </form>
 
         <!-- <p> Your Name: </p>

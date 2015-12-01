@@ -4,6 +4,10 @@
   margin: 2% 0;
 }
 
+.bookmarkscontainer {
+  text-align: center;
+}
+
 body {
     background-color: #EEEEEE;
     font-family: 'Open Sans';
@@ -23,22 +27,9 @@ h1 {
     color: #91688F;
     text-align: center;
     font-family: 'Caveat', cursive;
-    font-size: 5em;
+    font-size: 4em;
     margin-bottom: none;
 }
-
-
-h2 {
-  color: #91688F;
-  text-align: center;
-}
-
-
-h3 {
-  color: #91688F;
-  text-align: center;
-}
-
 
 p {
     font-family: 'Open Sans';
@@ -53,7 +44,7 @@ p {
 
 form {
   text-align: left;
-  margin-left: 25%;
+  margin-left: 24%;
   margin-top: 2%;
   margin-bottom: 2%;
 }
@@ -62,13 +53,31 @@ label {
   font-family: 'Open Sans';
   font-size: 1.2em;
   color: #34495E;
-  margin-right: 2%;
+
 }
+
+#name {
+  margin-right: 25%;
+}
+
+#project {
+  margin-right: 15%;
+}
+
+#panels {
+  margin-right: 4.8%;
+}
+
+#time {
+  margin-right: 23%;
+}
+
 /* Creates the text-line field */
 .text-line {
       background-color: transparent;
       color: black;
       text-align: left;
+      font-size: 1.2em;
       outline: none;
       outline-style: none;
       border-top: none;
@@ -76,11 +85,8 @@ label {
       border-right: none;
       border-bottom: solid black 1.5px;
       padding: 3px 10px;
+      margin-right: 25%;
   }
-
-.number-range {
-
-}
 
 /* Remove controls from Firefox */
 input[type=number] {
@@ -125,10 +131,6 @@ input[type=range]:focus {
 
 input[type=range]:focus::-webkit-slider-runnable-track {
     background: #ccc;
-}
-
-.pop-up {
-
 }
 
 .start-button {
