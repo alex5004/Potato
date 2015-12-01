@@ -10,6 +10,7 @@ body{
 	margin:0px;
 	background-color: #EEEEEE;
 }
+
 .Non_Chat{
 /*	margin-top: calc(50% - 200px);
 */	width: calc(50% + 500px);
@@ -55,15 +56,17 @@ td{
 	background-color: white;
 	color: #68A0A0;
 	cursor: pointer;
+	background-color: #EEEEEE;
 	width:100px;
 	text-align: center;
 	border-style: solid;
-	border-width: 3px;
+	border-width: 2px;
 	border-color: #68A0A0;
 	border-radius: 10px;
 	margin-left: calc(50% - 70px);
 }
 .Ready_Button:hover {
+	background-color: #68A0A0;
 	color: #EEEEEE;
-	background-color: black;
+	border-color: #EEEEEE;
 }
