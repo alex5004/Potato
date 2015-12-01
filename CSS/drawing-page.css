@@ -37,9 +37,22 @@ height: 10%;
     color: #34495E;
     text-align: center;
 }
+
+.clock
+{
+    float: right;
+    margin-right: 30%;
+    font-size: 3em;
+    font-family: 'Open Sans', sans-serif;
+   
+    font-weight: 600;
+    font-style: serif;
+    color: #34495E;
+
+}
 .header-holder
 {
-    margin-top: 2%;
+    margin-top: 1%;
     position: relative;
     width: 100%;
     height: 10%;
@@ -406,4 +419,6 @@ button:hover
    background-color: #DCC6E0;
     display:inline-block;
 }
+
+
 
