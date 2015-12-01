@@ -7,11 +7,11 @@ body {
 }
 
 .Logo{
-  position:absolute;
+  position:relative;
   left:0px;
   margin-left:10px;
   margin-top:10px;
-  width:100px;
+  width:10px;
 }
 
 .header {
